@@ -12,7 +12,7 @@ import { io } from "socket.io-client";
 // ─────────────────────────────────────────────────────────────
 // 1. CONFIG
 // ─────────────────────────────────────────────────────────────
-const SERVER = "https://chat-2-y7px.onrender.com";
+const SERVER = "https:/chat-2-y7px.onrender.com";
 const API    = `${SERVER}/api`;
 
 const token = () => localStorage.getItem("sc_token");
